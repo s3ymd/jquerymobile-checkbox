@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>さまざまなチェックボックス</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="js/libs/jquery-mobile/jquery.mobile.min.css">
+    </head>
+    <body>
+
+        <div data-role="page" id="page1">
+
+            <div data-role="header">
+                <h1>さまざなチェックボックス</h1>
+            </div><!-- /header -->
+
+            <div role="main" class="ui-content">
+
+                <form>
+                    <label>
+                        <input name="checkbox-0" type="checkbox">チェックボックス
+                    </label>
+                </form>
+
+
+                <form>
+                    <fieldset data-role="controlgroup" data-type="vertical">
+                        <legend>垂直グループ</legend>
+                        <input name="checkbox-v-2a" id="checkbox-v-2a" type="checkbox">
+                        <label for="checkbox-v-2a">チェックボックス</label>
+                        <input name="checkbox-v-2b" id="checkbox-v-2b" type="checkbox">
+                        <label for="checkbox-v-2b">チェックボックス</label>
+                        <input name="checkbox-v-2c" id="checkbox-v-2c" type="checkbox">
+                        <label for="checkbox-v-2c">チェックボックス</label>
+                    </fieldset>
+                </form>
+                
+                <form>
+                    <fieldset data-role="controlgroup" data-type="horizontal">
+                        <legend>水平グループ</legend>
+                        <input name="checkbox-h-2a" id="checkbox-h-2a" type="checkbox">
+                        <label for="checkbox-h-2a">チェックボックス</label>
+                        <input name="checkbox-h-2b" id="checkbox-h-2b" type="checkbox">
+                        <label for="checkbox-h-2b">チェックボックス</label>
+                        <input name="checkbox-h-2c" id="checkbox-h-2c" type="checkbox">
+                        <label for="checkbox-h-2c">チェックボックス</label>
+                    </fieldset>
+                </form>
+            </div><!-- /content -->
+
+            <div data-role="footer">
+                <h4>ページフッタ(footer)</h4>
+            </div><!-- /footer -->
+        </div><!-- /page -->        
+
+
+        <script src="js/libs/jquery/jquery.min.js"></script>
+        <script src="js/libs/jquery-mobile/jquery.mobile.min.js"></script>
+    </body>
+</html>
